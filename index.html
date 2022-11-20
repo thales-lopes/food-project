@@ -8,11 +8,11 @@
     <meta name="keywords" content="TailwindCSS, Javascript, project">
     <meta name="author" content="Thales Lopes">
     <link rel="stylesheet" href="./css/tailwind.css">
-    <title>Restaurant Best Choose</title>
+    <title>Best Choice Cuisines</title>
 </head>
 <body class="bg-green-100">
 
-    <div class="md:flex mx-auto bg-green-400 w-screen h-[12vh] hidden">
+    <div class="topBar md:flex mx-auto bg-green-400 w-screen h-[12vh] hidden">
 
         <nav class="flex w-full items-center justify-between lg:px-32 md:px-20 sm:px-10 px-0">
 
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="flex fixed md:hidden h-screen w-screen pl-4 items-center">
+    <div class="sideBar flex fixed md:hidden h-screen w-screen pl-4 items-center">
 
         <nav class="flex flex-col w-16 h-[48%] bg-green-900 gap-4 justify-center rounded-full items-center">
 
@@ -91,10 +91,106 @@
         </nav>
 
     </div> 
-    
-    
 
-    <div></div>
+    <div class="slide-picture">
+
+        <div class="pictures">
+
+            <img>
+
+        </div>
+
+    </div>
+
+    <div id="section">
+
+        <h1 class="mt-24 text-center text-rose-600 text-5xl">
+            
+            Pick a cuisine style
+        
+        </h1>
+
+        <section class="w-screen pb-24 pt-20 px-32 md:grid md:grid-cols-3  gap-3 gap-y-14">
+            
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">Italian Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/italian-food.png">
+
+                </a>
+
+            </div>
+
+            
+
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">Japonese Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/japonese-food.png">
+
+                </a>
+
+            </div>
+
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">Chinese Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/chinese-food.png">
+
+                </a>
+
+            </div>
+
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">Thai Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/thai-food.png">
+
+                </a>
+
+            </div>
+
+            
+
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">Arabic Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/arabic-food.png">
+
+                </a>
+
+            </div>
+
+            <div class="cuisine-style">
+
+                <a href="" target="_blank">
+
+                    <h1 class="absolute z-10 h-74 w-80 flex justify-center text-gray-300">French Cuisine</h1>
+
+                    <img class="relative h-64 w-80" src="./img/french-food.png">
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </div>
 
     <script src="https://kit.fontawesome.com/a25408e420.js" crossorigin="anonymous"></script>
 
