@@ -632,28 +632,52 @@ video {
   background-color: rgb(20 83 45 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/italian-food\.png\'\)\]{
-  background-image: url('/img/italian-food.png');
+.bg-\[url\(\'\.\/img\/italian-food\.png\'\)\]{
+  background-image: url('./img/italian-food.png');
 }
 
-.bg-\[url\(\'\/img\/japonese-food\.png\'\)\]{
-  background-image: url('/img/japonese-food.png');
+.bg-\[url\(\'\.\/img\/japonese-food\.png\'\)\]{
+  background-image: url('./img/japonese-food.png');
 }
 
-.bg-\[url\(\'\/img\/chinese-food\.png\'\)\]{
-  background-image: url('/img/chinese-food.png');
+.bg-\[url\(\'\.\/img\/chinese-food\.png\'\)\]{
+  background-image: url('./img/chinese-food.png');
 }
 
-.bg-\[url\(\'\/img\/thai-food\.png\'\)\]{
-  background-image: url('/img/thai-food.png');
+.bg-\[url\(\'\.\/img\/thai-food\.png\'\)\]{
+  background-image: url('./img/thai-food.png');
 }
 
-.bg-\[url\(\'\/img\/arabic-food\.png\'\)\]{
-  background-image: url('/img/arabic-food.png');
+.bg-\[url\(\'\.\/img\/arabic-food\.png\'\)\]{
+  background-image: url('./img/arabic-food.png');
 }
 
-.bg-\[url\(\'\/img\/french-food\.png\'\)\]{
-  background-image: url('/img/french-food.png');
+.bg-\[url\(\'\.\/img\/french-food\.png\'\)\]{
+  background-image: url('./img/french-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/french-food\.png\'\)\]{
+  background-image: url('../img/french-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/italian-food\.png\'\)\]{
+  background-image: url('../img/italian-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/japonese-food\.png\'\)\]{
+  background-image: url('../img/japonese-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/chinese-food\.png\'\)\]{
+  background-image: url('../img/chinese-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/thai-food\.png\'\)\]{
+  background-image: url('../img/thai-food.png');
+}
+
+.bg-\[url\(\'\.\.\/img\/arabic-food\.png\'\)\]{
+  background-image: url('../img/arabic-food.png');
 }
 
 .px-0{
