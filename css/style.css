@@ -22,5 +22,5 @@ body {
 }
 
 .cuisine-style {
-    @apply h-64 w-80 border border-gray-300 rounded-3xl text-white overflow-hidden
+    @apply border border-gray-300 rounded-3xl text-white flex flex-col justify-end items-center h-64 bg-cover cursor-pointer shadow-xl
 }
