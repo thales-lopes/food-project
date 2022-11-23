@@ -519,9 +519,21 @@ video {
   position: fixed;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.z-50{
+  z-index: 50;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-20{
+  margin-top: 5rem;
 }
 
 .mt-8{
@@ -580,8 +592,8 @@ video {
   height: 100vh;
 }
 
-.h-\[48\%\]{
-  height: 48%;
+.h-\[47\%\]{
+  height: 47%;
 }
 
 .h-\[30vh\]{
@@ -594,6 +606,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-20{
+  width: 5rem;
 }
 
 .w-16{
@@ -856,8 +872,8 @@ body {
   letter-spacing: 3px;
   --tw-text-opacity: 1;
   color: rgb(49 46 129 / var(--tw-text-opacity));
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -965,7 +981,13 @@ button.slick-next {
   width: 50%;
   position: absolute;
   left: 25%;
-  top: 90%;
+  top: 19%
+}
+
+@media (min-width: 768px){
+  .slick-dots{
+    top: 60%;
+  }
 }
 
 .slick-dots li button {
@@ -1040,10 +1062,6 @@ button.slick-next {
 
   .md\:hidden{
     display: none;
-  }
-
-  .md\:w-screen{
-    width: 100vw;
   }
 
   .md\:grid-cols-3{
