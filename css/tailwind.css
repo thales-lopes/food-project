@@ -519,14 +519,6 @@ video {
   position: fixed;
 }
 
-.top-0{
-  top: 0px;
-}
-
-.z-50{
-  z-index: 50;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -981,13 +973,7 @@ button.slick-next {
   width: 50%;
   position: absolute;
   left: 25%;
-  top: 19%
-}
-
-@media (min-width: 768px){
-  .slick-dots{
-    top: 60%;
-  }
+  top: 85%;
 }
 
 .slick-dots li button {
@@ -1044,8 +1030,8 @@ button.slick-next {
 }
 
 @media (min-width: 768px){
-  .md\:mt-24{
-    margin-top: 6rem;
+  .md\:mt-28{
+    margin-top: 7rem;
   }
 
   .md\:ml-0{

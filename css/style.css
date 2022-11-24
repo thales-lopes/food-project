@@ -57,7 +57,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 25%;
-    @apply md:top-[60%] top-[19%]
+    top: 85%;
 }
 
 .slick-dots li button {
