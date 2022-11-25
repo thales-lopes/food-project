@@ -844,6 +844,10 @@ video {
   width: 280px;
 }
 
+.w-\[150px\]{
+  width: 150px;
+}
+
 .columns-2{
   -moz-columns: 2;
        columns: 2;
