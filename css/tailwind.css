@@ -748,6 +748,10 @@ video {
   height: auto;
 }
 
+.h-full{
+  height: 100%;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -960,6 +964,11 @@ video {
 
 .bg-\[url\(\'\.\.\/img\/french-food\.png\'\)\]{
   background-image: url('../img/french-food.png');
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4{
@@ -1318,6 +1327,14 @@ button.slick-next {
   margin-left: 2%;
 }
 
+.hover\:h-auto:hover{
+  height: auto;
+}
+
+.hover\:w-\[95\%\]:hover{
+  width: 95%;
+}
+
 .hover\:scale-125:hover{
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
@@ -1410,6 +1427,54 @@ button.slick-next {
 
   .md\:mb-20{
     margin-bottom: 5rem;
+  }
+
+  .md\:mr-40{
+    margin-right: 10rem;
+  }
+
+  .md\:mr-32{
+    margin-right: 8rem;
+  }
+
+  .md\:mr-24{
+    margin-right: 6rem;
+  }
+
+  .md\:mr-16{
+    margin-right: 4rem;
+  }
+
+  .md\:ml-12{
+    margin-left: 3rem;
+  }
+
+  .md\:mr-12{
+    margin-right: 3rem;
+  }
+
+  .md\:ml-24{
+    margin-left: 6rem;
+  }
+
+  .md\:ml-28{
+    margin-left: 7rem;
+  }
+
+  .md\:mr-28{
+    margin-right: 7rem;
+  }
+
+  .md\:ml-32{
+    margin-left: 8rem;
+  }
+
+  .md\:ml-36{
+    margin-left: 9rem;
+  }
+
+  .md\:mr-36{
+    margin-right: 9rem;
   }
 
   .md\:flex{
