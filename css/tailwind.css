@@ -752,6 +752,10 @@ video {
   height: 100%;
 }
 
+.h-\[18\.75rem\]{
+  height: 18.75rem;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -774,6 +778,10 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-\[20rem\]{
+  width: 20rem;
 }
 
 .columns-2{
@@ -1497,6 +1505,10 @@ button.slick-next {
 
   .md\:w-screen{
     width: 100vw;
+  }
+
+  .md\:w-\[23\.75rem\]{
+    width: 23.75rem;
   }
 
   .md\:grid-cols-3{
