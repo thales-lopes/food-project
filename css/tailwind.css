@@ -792,6 +792,10 @@ video {
   width: 7.5rem;
 }
 
+.w-\[9\.375rem\]{
+  width: 9.375rem;
+}
+
 .columns-2{
   -moz-columns: 2;
        columns: 2;
