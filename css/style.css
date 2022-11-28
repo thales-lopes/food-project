@@ -33,10 +33,10 @@ button.slick-prev {
     width: 25px;
     height: 51px;
     background-color: transparent;
-    background-image: url("../img/arrow-l.png");
+    background-image: url("../img/left-arrow.png");
     position: absolute;
     z-index: 99;
-    top: 35%;
+    top: 50%;
     left: 14%;
 }
 
@@ -46,10 +46,10 @@ button.slick-next {
     width: 25px;
     height: 51px;
     background-color: transparent;
-    background-image: url("../img/arrow-r.png");
+    background-image: url("../img/right-arrow.png");
     position: absolute;
     z-index: 99;
-    top: 35%;
+    top: 50%;
     right: 14%;
 }
 
