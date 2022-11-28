@@ -596,10 +596,6 @@ video {
   display: none;
 }
 
-.h-full{
-  height: 100%;
-}
-
 .h-\[12vh\]{
   height: 12vh;
 }
@@ -638,10 +634,6 @@ video {
 
 .h-32{
   height: 8rem;
-}
-
-.w-screen{
-  width: 100vw;
 }
 
 .w-full{
@@ -930,6 +922,16 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-medium{
@@ -1262,8 +1264,8 @@ button.slick-next {
     height: 4rem;
   }
 
-  .md\:w-screen{
-    width: 100vw;
+  .md\:w-full{
+    width: 100%;
   }
 
   .md\:w-\[380px\]{
@@ -1333,6 +1335,11 @@ button.slick-next {
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
