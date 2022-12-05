@@ -27,26 +27,26 @@ body {
     @apply border border-gray-300 rounded-3xl text-white flex flex-col justify-end items-center h-64 bg-cover cursor-pointer shadow-xl hover:opacity-90 hover:scale-105 duration-300
 }
 
-button.slick-prev {
+.slider-prev {
     font-size: 0px;
     border: none;
     width: 25px;
     height: 51px;
     background-color: transparent;
-    background-image: url("../img/left-arrow.png");
+    background-image: url("../img/arrow-l.png");
     position: absolute;
     z-index: 99;
     top: 50%;
     left: 14%;
 }
 
-button.slick-next {
+.slider-next {
     font-size: 0px;
     border: none;
     width: 25px;
     height: 51px;
     background-color: transparent;
-    background-image: url("../img/right-arrow.png");
+    background-image: url("../img/arrow-r.png");
     position: absolute;
     z-index: 99;
     top: 50%;

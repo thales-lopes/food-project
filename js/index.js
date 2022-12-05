@@ -1,6 +1,8 @@
 $('.slider-pictures').slick({
   dots: true,
   infinite: true,
+  prevArrow: "<a class='slider-prev'></a>",
+  nextArrow: "<a class='slider-next'></a>",
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,

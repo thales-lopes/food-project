@@ -924,11 +924,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1112,26 +1107,26 @@ body {
   opacity: 0.9;
 }
 
-button.slick-prev {
+.slider-prev {
   font-size: 0px;
   border: none;
   width: 25px;
   height: 51px;
   background-color: transparent;
-  background-image: url("../img/left-arrow.png");
+  background-image: url("../img/arrow-l.png");
   position: absolute;
   z-index: 99;
   top: 50%;
   left: 14%;
 }
 
-button.slick-next {
+.slider-next {
   font-size: 0px;
   border: none;
   width: 25px;
   height: 51px;
   background-color: transparent;
-  background-image: url("../img/right-arrow.png");
+  background-image: url("../img/arrow-r.png");
   position: absolute;
   z-index: 99;
   top: 50%;
