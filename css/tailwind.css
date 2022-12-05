@@ -584,6 +584,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.ml-24{
+  margin-left: 6rem;
+}
+
 .flex{
   display: flex;
 }
@@ -730,6 +734,18 @@ video {
 
 .gap-10{
   gap: 2.5rem;
+}
+
+.gap-24{
+  gap: 6rem;
+}
+
+.gap-36{
+  gap: 9rem;
+}
+
+.gap-48{
+  gap: 12rem;
 }
 
 .gap-x-10{
@@ -1243,6 +1259,10 @@ body {
     margin-right: 9rem;
   }
 
+  .md\:mr-10{
+    margin-right: 2.5rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1275,6 +1295,18 @@ body {
     width: auto;
   }
 
+  .md\:w-\[150px\]{
+    width: 150px;
+  }
+
+  .md\:w-\[450px\]{
+    width: 450px;
+  }
+
+  .md\:w-\[350px\]{
+    width: 350px;
+  }
+
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1283,12 +1315,24 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+
   .md\:gap-60{
     gap: 15rem;
   }
 
   .md\:gap-4{
     gap: 1rem;
+  }
+
+  .md\:gap-48{
+    gap: 12rem;
   }
 
   .md\:gap-y-14{
@@ -1335,6 +1379,11 @@ body {
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
